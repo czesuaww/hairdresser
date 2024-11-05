@@ -1,0 +1,23 @@
+:root {
+  --main-color: #e7dbe5;
+}
+
+.header {
+  background-color: var(--main-color);
+  height: 100vh;
+}
+
+.firstPic {
+  background-image: url(../../assets/images/logoHair.png);
+  width: 100%;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.title {
+  padding-top: 10px;
+  font-size: 1.7rem;
+  font-family: "Playwrite BE VLG", cursive;
+}
