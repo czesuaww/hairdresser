@@ -3,8 +3,8 @@ import style from './Arrow.module.css';
 const Arrow = () => {
 
     const scrollDown = () => {
-        const aboutMeSection = document.getElementById('#aboutMeSection')
-        if (aboutMeSection) aboutMeSection.scrollIntoView();
+        const aboutMeSection = document.getElementById('aboutMeSection')
+        if (aboutMeSection) aboutMeSection.scrollIntoView({ behavior: 'smooth' });
     }
 
     return (
