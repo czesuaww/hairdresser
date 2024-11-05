@@ -1,0 +1,19 @@
+import style from './Arrow.module.css';
+
+const Arrow = () => {
+
+    const scrollDown = () => {
+        const aboutMeSection = document.getElementById('#aboutMeSection')
+        if (aboutMeSection) aboutMeSection.scrollIntoView();
+    }
+
+    return (
+        <div className={style.container}>
+            <div onClick={scrollDown}>
+                <div className={style.arrow}></div>
+            </div>
+        </div>
+    );
+}
+
+export default Arrow;
