@@ -3,7 +3,7 @@ import style from './Arrow.module.css';
 const Arrow = () => {
 
     const scrollDown = () => {
-        const aboutMeSection = document.getElementById('aboutMeSection')
+        const aboutMeSection = document.getElementById('miniGallery')
         if (aboutMeSection) aboutMeSection.scrollIntoView({ behavior: 'smooth' });
     }
 
